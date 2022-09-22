@@ -1,0 +1,18 @@
+#lista-experiencia
+{
+    background-color: aliceblue;
+    box-sizing: border-box;
+
+
+}
+.h5
+{
+    margin-right: 220px;
+}
+ul {
+    list-style: none;
+}
+div
+{
+    background-color:hsl(193, 14%, 67%);
+}
