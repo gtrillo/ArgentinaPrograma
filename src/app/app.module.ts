@@ -12,7 +12,10 @@ import { ExperienciaComponent } from './experiencia/experiencia.component';
 import { BotonAgregarComponent } from './boton-agregar/boton-agregar.component';
 import { EducacionComponent } from './educacion/educacion.component';
 import { SkillsComponent } from './skills/skills.component';
-
+import { BotonEditarComponent } from './boton-editar/boton-editar.component';
+import { BotonEliminarComponent } from './boton-eliminar/boton-eliminar.component';
+import {HttpClientModule} from '@angular/common/http';
+import { LoginComponent } from './login/login/login.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,11 +27,15 @@ import { SkillsComponent } from './skills/skills.component';
     ExperienciaComponent,
     BotonAgregarComponent,
     EducacionComponent,
-    SkillsComponent
+    SkillsComponent,
+    BotonEditarComponent,
+    BotonEliminarComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

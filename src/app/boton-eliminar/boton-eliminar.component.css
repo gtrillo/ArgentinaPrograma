@@ -1,0 +1,41 @@
+.circulo
+{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 100%;
+    margin-top: -20px;
+    margin-left: 0px;
+
+}
+.circulo > .imagen
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    margin-left: -80px;
+}
+#boton
+{
+    width: 25px;
+    height: 25px; 
+    border-radius: 100%;
+    margin-left: 10px;
+}
+#icono-agregar 
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-top: -14px;
+    margin-left: -16px;
+ 
+}
+#icono-editar 
+{
+  width: 40px;
+  height: 30px; 
+  border-radius: 100%;
+  margin-top: -12px;
+  margin-left: 0px;
+}
