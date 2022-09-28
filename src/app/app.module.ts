@@ -15,7 +15,11 @@ import { SkillsComponent } from './skills/skills.component';
 import { BotonEditarComponent } from './boton-editar/boton-editar.component';
 import { BotonEliminarComponent } from './boton-eliminar/boton-eliminar.component';
 import {HttpClientModule} from '@angular/common/http';
-import { LoginComponent } from './login/login/login.component'
+import { LoginComponent } from './login/login/login.component';
+import { InicioComponent } from './inicio/inicio.component';
+import { Pagina404Component } from './pagina404/pagina404.component'
+import { ReactiveFormsModule } from '@angular/forms';
+import {FormsModule} from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,12 +34,16 @@ import { LoginComponent } from './login/login/login.component'
     SkillsComponent,
     BotonEditarComponent,
     BotonEliminarComponent,
-    LoginComponent
+    LoginComponent,
+    InicioComponent,
+    Pagina404Component
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
