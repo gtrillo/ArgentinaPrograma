@@ -20,6 +20,7 @@ import { InicioComponent } from './inicio/inicio.component';
 import { Pagina404Component } from './pagina404/pagina404.component'
 import { ReactiveFormsModule } from '@angular/forms';
 import {FormsModule} from '@angular/forms';
+import { VistaEdicionComponent } from './vista-edicion/vista-edicion.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,7 +37,8 @@ import {FormsModule} from '@angular/forms';
     BotonEliminarComponent,
     LoginComponent,
     InicioComponent,
-    Pagina404Component
+    Pagina404Component,
+    VistaEdicionComponent
   ],
   imports: [
     BrowserModule,

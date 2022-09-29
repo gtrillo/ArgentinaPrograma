@@ -21,21 +21,18 @@
 
 <div class="container-fluid">
   <div class="row">
-    <div><p id="nombre">Gonzalo Ernesto Blas Trillo</p></div>
+    <div><p id="nombre">{{miPorfolio.nombre}}</p></div>
   </div>
   <div class="row">
-    <div><p id="profesion">Full Stack Developer JR</p></div>
+    <div><p id="profesion">{{miPorfolio.puesto}}</p></div>
   </div>
   <div class="row">
-    <h4 id="titulo_acerca_de"> Acerca de...</h4>
+    <div class="col-10"><h4 id="titulo_acerca_de"> Acerca de...</h4></div>
+    <div class="col-2"><app-boton-editar></app-boton-editar></div>
   </div>
   <div class="row">
     <div class="container-fluid"><p id="acerca_de">
-      Inicie mis estudios en el área técnica en el 2016, alcanzando ese mismo año el titulo de reparador de pc.
-      Estudie durante 2 años ingeniería informática, 
-     <br>carrera que me permitió asentar mis bases sobre la informática. <br>Actualmente me encuentro estudiando una tecnicatura en programación.
-      Estoy en búsqueda de mi primer trabajo como programador jr. el cual me permita aplicar mis conocimientos en la practica profesional y así continuar mi formación laboral y académica. 
-      Tengo conocimientos en JavaScript y C y C# los cuales aprendí en la carrera que estoy cursando actualmente.
-      <hr size="6px" color="black">
+      {{miPorfolio.acercaDe}}
+      <hr size="6px" color="#1254C1">
     </div>
 </div><!--Fin del contenedor-->

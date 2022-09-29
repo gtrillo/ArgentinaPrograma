@@ -1,7 +1,35 @@
+#lista-experiencia
+{
+    background-color: aliceblue;
+    box-sizing: border-box;
+    
+}
+.h5
+{
+    margin-right: 220px;
+
+}
 ul {
     list-style: none;
 }
 div
 {
     background-color:hsl(193, 14%, 67%);
+}
+#encabezado
+{
+    padding: 0px;
+    border:none;
+}
+#cuerpo
+{
+    padding: 5px;
+    border: 10px;
+}
+#tiempo-trabajado
+{
+    margin-left: -35px;
+    margin-top: -10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: grey;
 }
