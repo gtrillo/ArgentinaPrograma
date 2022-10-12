@@ -21,6 +21,7 @@ import { Pagina404Component } from './pagina404/pagina404.component'
 import { ReactiveFormsModule } from '@angular/forms';
 import {FormsModule} from '@angular/forms';
 import { VistaEdicionComponent } from './vista-edicion/vista-edicion.component';
+import { ProyectosComponent } from './proyectos/proyectos.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,7 +39,8 @@ import { VistaEdicionComponent } from './vista-edicion/vista-edicion.component';
     LoginComponent,
     InicioComponent,
     Pagina404Component,
-    VistaEdicionComponent
+    VistaEdicionComponent,
+    ProyectosComponent
   ],
   imports: [
     BrowserModule,

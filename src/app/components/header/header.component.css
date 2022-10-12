@@ -1,6 +1,6 @@
 div
 {
-    background-color:hsl(193, 14%, 67%);
+  background-color:#555E7B;
 }
 #logo-arp
 {
@@ -26,10 +26,10 @@ div
 }
 #nombre
 {
-  margin-top: 25%;
+  margin-top: 5%;
   margin-left: 90px;
   font-size: 18px;
-  color: rgb(14, 15, 15);
+  color: white;
   font-family:'Times New Roman', Times, serif;
 }
 #profesion
@@ -37,17 +37,17 @@ div
   margin-top: -20px;
   margin-left: 101px;
   font-size: 18px;
-  color: rgb(14, 15, 15);
+  color: white;
   font-family:'Times New Roman', Times, serif;
 }
 #titulo_acerca_de
 {
   margin-left: 15px;
   font-family:'Times New Roman', Times, serif;
-  color: rgb(14, 15, 15); 
+  color: white;
 }
 #acerca_de
 {
-  color: rgb(14, 15, 15);
+  color: white;
   font-family: 'Times New Roman', Times, serif;
 }

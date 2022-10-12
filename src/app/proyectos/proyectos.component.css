@@ -1,0 +1,19 @@
+#imagen-proyectos{
+    width: 100%;
+    height: auto;
+    
+  }
+  @supports(object-fit: cover){
+    #imagen-proyectos{
+        height: 300px;
+        object-fit: cover;
+        object-position: center center;
+        border: none;
+      }
+  }
+
+
+  div
+  {
+      background-color:#555E7B;
+  }

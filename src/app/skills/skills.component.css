@@ -3,10 +3,10 @@ ul {
 }
 div
 {
-    background-color:hsl(193, 14%, 67%);
+    background-color:#555E7B;
 }
 body{
-    background-color: rgba(180, 189, 189, 0.905);
+    background-color: #2D307D;
  }
  
  .mt-100{
@@ -139,3 +139,15 @@ body{
      transform: rotate(135deg);
    }
  }	
+
+ #imagen-skills{
+  width: 100%;
+  height: auto;
+}
+@supports(object-fit: cover){
+  #imagen-skills{
+      height: 300px;
+      object-fit: cover;
+      object-position: center center;
+    }
+}

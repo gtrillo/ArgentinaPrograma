@@ -1,23 +1,15 @@
-#lista-experiencia
-{
-    background-color: aliceblue;
-    box-sizing: border-box;
-    
-}
-.h5
-{
-    margin-right: 220px;
 
-}
 ul {
     list-style: none;
+    color: white;
 }
 div
 {
-    background-color:hsl(193, 14%, 67%);
+    background-color:#555E7B;
 }
 #encabezado
 {
+
     padding: 0px;
     border:none;
 }
@@ -25,11 +17,25 @@ div
 {
     padding: 5px;
     border: 10px;
+    border: none;
 }
 #tiempo-trabajado
 {
-    margin-left: -35px;
-    margin-top: -10px;
+    margin-left: -30px;
+    margin-top: 5px;
     font-family: 'Courier New', Courier, monospace;
-    color: grey;
+
+    
 }
+#imagen-experiencia{
+    width: 100%;
+    height: auto;
+  }
+  @supports(object-fit: cover){
+    #imagen-experiencia{
+        height: 300px;
+        object-fit: cover;
+        object-position: center center;
+      }
+  }
+
