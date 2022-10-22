@@ -1,15 +1,11 @@
    {
     "nombre": "Gonzalo Ernesto Blas Trillo",
     "puesto": "Full Stack Developer JR",
-    "acercaDe": "Inicie mis estudios en el área técnica en el 2016, alcanzando ese mismo año el titulo de reparador de pc. Estudie durante 2 años ingeniería informática, \n carrera que me permitió asentar mis bases sobre la informática.\nActualmente me encuentro estudiando una tecnicatura en programación. Estoy en búsqueda de mi primer trabajo como programador jr. el cual me permita aplicar mis conocimientos en la\n practica profesional y así continuar mi formación laboral y académica. Tengo conocimientos en JavaScript y C y C# los cuales aprendí en la carrera que estoy cursando actualmente.",
-    "experiencia":{
+    "acercaDe": "¡Hola! Soy estudiante de la tecnicatura superior en programación en la Universidad Tecnológica Nacional y también estoy cursando la capacitación brindada por el Inti Argentina Programa, me encuentro en búsqueda de mi primer trabajo como programador Jr el cual me permita poner en practica todos los conocimientos que he adquirido en estos dos años de estudios en el área. ",
+    "experiencia":[{
         "empresa":"MIJORMI SRL",
         "puesto":"ANALISTA EN SISTEMAS",
-        "incioFin": "Marzo. 2022 - Presente",
-        "tareas":{
-            "t1":"Administrador bases de datos MYSQL.",
-            "t2":"Soporte técnico a usuarios.",
-            "t3":"Pruebas QA en software de gestión."
-        }
-    }
+        "inicioFin": "Marzo. 2022 - Presente",
+        "tareas":"Actualmente estoy dando soporte a usuario a través de un sistema de tickets sobre incidencias ocurridas en un punto de venta, también realizo cargas masivas por SQL. Intervengo en procesos de desarrollo e implementación de nuevas tecnologías para la empresa."
+    }]
    }

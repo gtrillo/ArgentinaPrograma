@@ -4,17 +4,14 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-10">
-          <ul class="items-list">
+          <ul class="experienciaList">
             <div class="data-container">
-              <li>
-                <strong> <u style="color: white;"><h6 class="card-title" style="color: white;"><b> MIJORMI SRL | ANALISTA EN SISTEMAS</b></h6></u></strong>
+              <li *ngFor="let experiencia of experienciaList">
+                <strong> <u style="color: white;"><h6 class="card-title" style="color: white;"><b> {{experiencia.empresa}} | {{experiencia.puesto}}</b></h6></u></strong>
                 <div>
-                  <p id="tiempo-trabajado"> <b>  </b></p>
-            <li style="margin-top: -10px; margin-left:-30px;">Administrador bases de datos MYSQL.</li>
-            <li style=margin-left:-30px;>Soporte técnico a usuarios.</li>
-            <li style=margin-left:-30px;>dministrador de software de gestión.</li>
-            <li style=margin-left:-30px;>Pruebas QA en software de gestión.</li>
-          </div>
+                 <p>{{experiencia.inicioFin}}</p>   
+                 <p>{{experiencia.tareas}}</p>
+                </div>
         </li>
       </div>
       </ul>
