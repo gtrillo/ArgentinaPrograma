@@ -20,8 +20,14 @@ import { InicioComponent } from './inicio/inicio.component';
 import { Pagina404Component } from './pagina404/pagina404.component'
 import { ReactiveFormsModule } from '@angular/forms';
 import {FormsModule} from '@angular/forms';
-import { VistaEdicionComponent } from './vista-edicion/vista-edicion.component';
 import { ProyectosComponent } from './proyectos/proyectos.component';
+import { LheaderComponent } from './vista_lectura/lheader/lheader.component';
+import { LbannerComponent } from './vista_lectura/lbanner/lbanner.component';
+import { LfotoPerfilComponent } from './vista_lectura/lfoto-perfil/lfoto-perfil.component';
+import { LexperienciaComponent } from './vista_lectura/lexperiencia/lexperiencia.component';
+import { LeducacionComponent } from './vista_lectura/leducacion/leducacion.component';
+import { LproyectosComponent } from './vista_lectura/lproyectos/lproyectos.component';
+import { LredesSocialesComponent } from './vista_lectura/lredes-sociales/lredes-sociales.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,8 +45,14 @@ import { ProyectosComponent } from './proyectos/proyectos.component';
     LoginComponent,
     InicioComponent,
     Pagina404Component,
-    VistaEdicionComponent,
-    ProyectosComponent
+    ProyectosComponent,
+    LheaderComponent,
+    LbannerComponent,
+    LfotoPerfilComponent,
+    LexperienciaComponent,
+    LeducacionComponent,
+    LproyectosComponent,
+    LredesSocialesComponent
   ],
   imports: [
     BrowserModule,

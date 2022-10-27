@@ -1,0 +1,28 @@
+<div class="card mb-3" style="border: none;">
+    <img class="card-img-top" src="../../assets/images/experiencia-laboral.jpg" alt="Card image cap" id="imagen-experiencia">
+    <div class="card-body">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-10">
+            <ul class="experienciaList">
+              <div class="data-container">
+                <li *ngFor="let experiencia of experienciaList">
+                  <strong> <u style="color: white;"><h6 class="card-title" style="color: white;"><b> {{experiencia.empresa}} | {{experiencia.puesto}}</b></h6></u></strong>
+                  <div>
+                   <p>{{experiencia.inicioFin}}</p>   
+                   <p>{{experiencia.tareas}}</p>
+                  </div>
+          </li>
+        </div>
+        </ul>
+          </div>
+          <div class="col-2">
+            <div>
+              <app-boton-agregar></app-boton-agregar>
+              <app-boton-editar></app-boton-editar>
+            <app-boton-eliminar></app-boton-eliminar></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

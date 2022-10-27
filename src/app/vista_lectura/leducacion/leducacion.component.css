@@ -1,0 +1,42 @@
+
+ul {
+    list-style: none;
+    color: white;
+}
+div
+{
+    background-color:#555E7B;
+}
+#encabezado
+{
+    color:#555E7B;
+    padding: 0px;
+    border:none;
+}
+#cuerpo
+{
+    padding: 5px;
+    border: 10px;
+}
+#tiempo-trabajado
+{
+    margin-left: -30px;
+    margin-top: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #555E7B;
+    
+}
+#imagen-educacion{
+    width: 100%;
+    height: auto;
+    
+  }
+  @supports(object-fit: cover){
+    #imagen-educacion{
+        height: 300px;
+        object-fit: cover;
+        object-position: center center;
+        border: none;
+      }
+  }
+

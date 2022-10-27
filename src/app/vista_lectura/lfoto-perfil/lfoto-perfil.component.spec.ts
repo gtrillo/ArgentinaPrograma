@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { VistaEdicionComponent } from './vista-edicion.component';
+import { LfotoPerfilComponent } from './lfoto-perfil.component';
 
-describe('VistaEdicionComponent', () => {
-  let component: VistaEdicionComponent;
-  let fixture: ComponentFixture<VistaEdicionComponent>;
+describe('LfotoPerfilComponent', () => {
+  let component: LfotoPerfilComponent;
+  let fixture: ComponentFixture<LfotoPerfilComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ VistaEdicionComponent ]
+      declarations: [ LfotoPerfilComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(VistaEdicionComponent);
+    fixture = TestBed.createComponent(LfotoPerfilComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

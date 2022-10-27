@@ -1,0 +1,38 @@
+<div class="container-fluid">
+    <div class="row">
+     <div class="col-8 border,border-none">
+      <app-logo-arp></app-logo-arp>
+     </div>
+     <div class="col-4 border,border-none"> <app-redes-sociales></app-redes-sociales></div>
+    </div>
+  </div><!--Fin del contenedor-->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 border,border-none">
+        <app-banner></app-banner>
+        <div class="row">
+          <div class="col-12 border,border-none">
+            <app-foto-perfil></app-foto-perfil>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!--Fin del contenedor-->
+  
+  <div class="container-fluid">
+    <div class="row">
+      <div><p id="nombre">{{miPorfolio.nombre}}</p></div>
+    </div>
+    <div class="row">
+      <div><p id="profesion">{{miPorfolio.puesto}}</p></div>
+    </div>
+    <div class="row">
+      <div class="col-12"><h4 id="titulo_acerca_de"> Acerca de...</h4></div>
+    </div>
+    <div class="row">
+      <div class="container-fluid"><p id="acerca_de">
+        {{miPorfolio.acercaDe}}
+        <hr size="6px" color="white">
+      </div>
+  </div><!--Fin del contenedor-->
+  

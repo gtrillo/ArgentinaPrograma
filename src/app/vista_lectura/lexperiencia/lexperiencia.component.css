@@ -1,0 +1,41 @@
+
+ul {
+    list-style: none;
+    color: white;
+}
+div
+{
+    background-color:#555E7B;
+}
+#encabezado
+{
+
+    padding: 0px;
+    border:none;
+}
+#cuerpo
+{
+    padding: 5px;
+    border: 10px;
+    border: none;
+}
+#tiempo-trabajado
+{
+    margin-left: -30px;
+    margin-top: 5px;
+    font-family: 'Courier New', Courier, monospace;
+
+    
+}
+#imagen-experiencia{
+    width: 100%;
+    height: auto;
+  }
+  @supports(object-fit: cover){
+    #imagen-experiencia{
+        height: 300px;
+        object-fit: cover;
+        object-position: center center;
+      }
+  }
+
